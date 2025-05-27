@@ -39,7 +39,7 @@ header {
     text-align: left;
 }
 
-.header-text h2 {
+.header-text h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Added shadow for readability */
@@ -114,7 +114,7 @@ header {
 .buy-section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #1E90FF; /* Changed from red (#ff4500) to blue */
+    color: #1E90FF; /* Blue color */
 }
 
 .buy-section p {
@@ -150,7 +150,7 @@ header {
 .contact-section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #1E90FF; /* Changed from red (#ff4500) to blue */
+    color: #1E90FF; /* Blue color */
 }
 
 .contact-section p {
