@@ -15,16 +15,36 @@ body {
 header {
     background: linear-gradient(90deg, #ff8c00, #ff4500);
     color: white;
-    text-align: center;
     padding: 2rem;
 }
 
-header h1 {
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-text {
+    text-align: left;
+}
+
+.header-text h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
 
-header p {
+.header-text p {
     font-size: 1.2rem;
 }
 
