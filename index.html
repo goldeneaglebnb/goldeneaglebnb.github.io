@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Eagle Meme Coin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Golden Eagle 🦅</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#buy">Buy</a></li>
+            <li><a href="#x-account">X Account</a></li>
+            <li><a href="#telegram">Telegram</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section with Slideshow -->
+    <section id="home">
+        <h1>Welcome to Golden Eagle Meme Coin</h1>
+        <div class="slideshow">
+            <div class="slides">
+                <img src="1.PNG" alt="Golden Eagle 1">
+                <img src="2.PNG" alt="Golden Eagle 2">
+                <img src="3.PNG" alt="Golden Eagle 3">
+                <img src="4.PNG" alt="Golden Eagle 4">
+                <img src="5.PNG" alt="Golden Eagle 5">
+                <img src="6.PNG" alt="Golden Eagle 6">
+            </div>
+        </div>
+        <p>Soar to new heights with $GE – the ultimate meme coin for freedom and fortune!</p>
+    </section>
+
+    <!-- Buy Section -->
+    <section id="buy">
+        <h2>Buy $GE Now!</h2>
+        <p>Join the flock and grab your Golden Eagle tokens today. Don’t miss out on this high-flying opportunity!</p>
+        <a href="#" class="btn">Buy $GE</a>
+    </section>
+
+    <!-- X Account Section -->
+    <section id="x-account">
+        <h2>Follow Us on X</h2>
+        <p>Stay updated with the latest $GE news and updates. Follow us on X for exclusive content!</p>
+        <a href="https://x.com" target="_blank" class="btn">Visit X Account</a>
+    </section>
+
+    <!-- Telegram Section -->
+    <section id="telegram">
+        <h2>Join Our Telegram Community</h2>
+        <p>Connect with fellow Golden Eagle enthusiasts in our Telegram group. Let’s soar together!</p>
+        <a href="https://telegram.org" target="_blank" class="btn">Join Telegram</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Golden Eagle Meme Coin. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Simple slideshow script
+        let slideIndex = 0;
+        const slides = document.querySelectorAll('.slides img');
+        function showSlides() {
+            slides.forEach((slide, index) => {
+                slide.style.display = 'none';
+            });
+            slideIndex = (slideIndex + 1) % slides.length;
+            slides[slideIndex].style.display = 'block';
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+        showSlides();
+    </script>
+</body>
+</html>
