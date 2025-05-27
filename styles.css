@@ -6,8 +6,8 @@
 }
 
 body {
-    background: linear-gradient(135deg, #ffcc00, #ff6600);
-    color: #333;
+    background: linear-gradient(135deg, #1C2526, #4B4B4B); /* Updated to include deep navy blue */
+    color: #fff;
     line-height: 1.6;
 }
 
@@ -56,14 +56,14 @@ section {
 }
 
 h1, h2 {
-    color: #1a1a1a;
+    color: #ffcc00; /* Golden color for headings */
     margin-bottom: 1rem;
 }
 
 p {
     max-width: 600px;
     margin: 0 auto 2rem;
-    color: #555;
+    color: #ccc;
 }
 
 /* Slideshow */
@@ -71,30 +71,37 @@ p {
     max-width: 600px;
     margin: 0 auto 2rem;
     position: relative;
-    height: 400px;
-    overflow: hidden;
+    overflow: visible; /* Ensure no cropping */
 }
 
 .slides img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto; /* Preserve aspect ratio to show full image */
     display: none;
     position: absolute;
     top: 0;
     left: 0;
+    border: 3px solid #ffcc00; /* Golden border for images */
+    border-radius: 10px;
 }
 
 .slides img:first-child {
     display: block;
 }
 
+/* Contact Links */
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
 /* Buttons */
 .btn {
     display: inline-block;
     padding: 0.8rem 2rem;
-    background: #1a1a1a;
-    color: #ffcc00;
+    background: #ffcc00; /* Golden button background */
+    color: #1a1a1a;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -102,7 +109,7 @@ p {
 }
 
 .btn:hover {
-    background: #ff6600;
+    background: #e6b800;
     color: #fff;
 }
 
@@ -133,7 +140,11 @@ footer {
     }
 
     .slideshow {
-        max-width: 100%;
-        height: 300px;
+        max-width: 90%;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        gap: 0.5rem;
     }
 }
