@@ -3,71 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden Eagle Meme Coin</title>
+    <title>Golden Eagle ($GE) - Pioneering the Future of BSC</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav>
-        <div class="logo">Golden Eagle 🦅</div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#buy">Buy</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <h1>Golden Eagle ($GE)</h1>
+        <p>Pioneering the Future of BSC with Freedom, Strength, and $USD1</p>
+    </header>
 
-    <!-- Home Section with Slideshow -->
-    <section id="home">
-        <h1>Welcome to Golden Eagle Meme Coin</h1>
-        <div class="slideshow">
-            <div class="slides">
-                <img src="1.PNG" alt="Golden Eagle 1">
-                <img src="2.PNG" alt="Golden Eagle 2">
-                <img src="3.PNG" alt="Golden Eagle 3">
-                <img src="4.PNG" alt="Golden Eagle 4">
-                <img src="5.PNG" alt="Golden Eagle 5">
-                <img src="6.PNG" alt="Golden Eagle 6">
-            </div>
+    <!-- Slideshow Section -->
+    <section class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="1.PNG" alt="Golden Eagle Image 1">
         </div>
-        <p>Soar to new heights with $GE – the ultimate meme coin for freedom and fortune!</p>
+        <div class="mySlides fade">
+            <img src="2.PNG" alt="Golden Eagle Image 2">
+        </div>
+        <div class="mySlides fade">
+            <img src="3.PNG" alt="Golden Eagle Image 3">
+        </div>
+        <div class="mySlides fade">
+            <img src="4.PNG" alt="Golden Eagle Image 4">
+        </div>
+        <div class="mySlides fade">
+            <img src="5.PNG" alt="Golden Eagle Image 5">
+        </div>
+        <!-- Navigation arrows -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </section>
 
-    <!-- Buy Section -->
-    <section id="buy">
-        <h2>Buy $GE Now!</h2>
-        <p>Join the flock and grab your Golden Eagle tokens today. Don’t miss out on this high-flying opportunity!</p>
-        <a href="https://four.meme/" target="_blank" class="btn">Buy $GE</a>
+    <!-- Buy $GE Section -->
+    <section class="buy-section">
+        <h2>Buy $GE</h2>
+        <p><strong>Contract Address (CA):</strong> 0x1234567890abcdef1234567890abcdef12345678</p>
+        <a href="https://your-purchase-link.com" target="_blank" class="buy-button">Purchase $GE Now</a>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section class="contact-section">
         <h2>Contact Us</h2>
-        <p>Connect with the Golden Eagle community! Reach out to us on X or Telegram.</p>
-        <div class="contact-links">
-            <a href="https://x.com" target="_blank" class="btn">Follow on X</a>
-            <a href="https://telegram.org" target="_blank" class="btn">Join Telegram</a>
+        <p>Join our community on social media:</p>
+        <div class="social-links">
+            <a href="https://x.com/yourXprofile" target="_blank" class="social-button x-button">X</a>
+            <a href="https://t.me/yourTelegramGroup" target="_blank" class="social-button telegram-button">Telegram</a>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
-        <p>© 2025 Golden Eagle Meme Coin. All rights reserved.</p>
+        <p>&copy; 2025 Golden Eagle ($GE). All rights reserved.</p>
     </footer>
 
-    <script>
-        // Simple slideshow script
-        let slideIndex = 0;
-        const slides = document.querySelectorAll('.slides img');
-        function showSlides() {
-            slides.forEach((slide, index) => {
-                slide.style.display = 'none';
-            });
-            slideIndex = (slideIndex + 1) % slides.length;
-            slides[slideIndex].style.display = 'block';
-            setTimeout(showSlides, 3000); // Change image every 3 seconds
-        }
-        showSlides();
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
