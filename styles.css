@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #2b2b2b, #4b4b4b); /* Darker gradient to complement golden tones */
+    background: linear-gradient(135deg, #1C2526, #2A3D45); /* Deep navy blue gradient */
     color: #fff;
     line-height: 1.6;
 }
@@ -68,7 +68,7 @@ p {
 
 /* Slideshow */
 .slideshow {
-    max-width: 600px;
+    max-width: 800px; /* Increased width for larger images */
     margin: 0 auto 2rem;
     position: relative;
     overflow: visible; /* Ensure no cropping */
@@ -76,13 +76,14 @@ p {
 
 .slides img {
     width: 100%;
-    height: auto; /* Preserve aspect ratio to show full image */
+    height: auto; /* Preserve aspect ratio */
     display: none;
     position: absolute;
     top: 0;
     left: 0;
     border: 3px solid #ffcc00; /* Golden border for images */
     border-radius: 10px;
+    object-fit: contain; /* Ensure full image is visible without cropping */
 }
 
 .slides img:first-child {
@@ -140,7 +141,7 @@ footer {
     }
 
     .slideshow {
-        max-width: 90%;
+        max-width: 95%; /* Slightly larger on smaller screens */
     }
 
     .contact-links {
