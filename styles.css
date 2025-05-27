@@ -13,7 +13,7 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(90deg, #ff8c00, #ff4500);
+    background: linear-gradient(90deg, #FFD700, #DAA520); /* Golden gradient */
     color: white;
     padding: 2rem;
 }
@@ -39,13 +39,15 @@ header {
     text-align: left;
 }
 
-.header-text h1 {
+.header-text h2 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Added shadow for readability */
 }
 
 .header-text p {
     font-size: 1.2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Added shadow for readability */
 }
 
 /* Slideshow */
@@ -112,7 +114,7 @@ header {
 .buy-section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #ff4500;
+    color: #1E90FF; /* Changed from red (#ff4500) to blue */
 }
 
 .buy-section p {
@@ -148,7 +150,7 @@ header {
 .contact-section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #ff4500;
+    color: #1E90FF; /* Changed from red (#ff4500) to blue */
 }
 
 .contact-section p {
