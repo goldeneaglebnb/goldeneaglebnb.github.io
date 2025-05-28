@@ -18,4 +18,4 @@ function showSlides(n) {
 // Auto slideshow
 setInterval(() => {
     plusSlides(1);
-}, 3000); // Change slide every 3 seconds
+}, 1000); // Change slide every 3 seconds
