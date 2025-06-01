@@ -19,4 +19,3 @@ function showSlides(n) {
 setInterval(() => {
     plusSlides(1);
 }, 1000); // Change slide every 1 seconds
-
